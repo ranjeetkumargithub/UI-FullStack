@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selector 2</title>
+    <style>
+        input[type="text"]{
+            background-color: blueviolet;
+            transition: all 0.5s;
+        }
+        input[type="text"]:focus{
+            background-color: orangered;
+            color: white;
+            font-size: 18px;
+        }
+        input[type="password"]{
+            background-color: limegreen;
+        }
+        input[type="submit"]{
+            background-color: orangered;
+            transition: all 0.5s;
+        }
+        input[type="submit"]:hover{
+            background-color: purple;
+            color: white;
+            padding: 14px 25px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <form action="">
+        <label>User Name</label>
+        <input type="text"> <br>
+
+        <label>Password</label>
+        <input type="password"> <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background-color: teal;
+        }
+        #bg-image{
+            box-shadow: 0 0 10px black;
+            padding: 15px;
+            width: 500px;
+            background-image: url("../img/image11.jpg");
+            color: white;
+        }
+        #bg-repeat{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-color: lightsalmon;
+            background-image: url("../img/ball-clip-art.jpg");
+            background-repeat: repeat-x;
+            background-position: top left;
+            background-attachment: scroll;
+            
+        }
+        #bg-position{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-color: lightsalmon;
+            background-image: url("../img/ball-clip-art.jpg");
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-attachment: scroll;
+        }
+        #bg-attachment{
+            height: 250px;
+            box-shadow: 0 0 10px black;
+            background: white url("../img/image10.jpg") no-repeat fixed center;
+
+        }
+        #bg-size{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-image: url("../img/image10.jpg");
+            background-size: cover;
+        }
+        #gradient{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background: linear-gradient(45deg,black,white,black);
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h1>I am with teal color background</h1>
+    </div>
+
+    <h2>Background Image</h2>
+    <div id="bg-image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium adipisci architecto distinctio eaque facilis fuga harum id, iure magnam, obcaecati officia quo ratione, sint tempore veritatis vero? Accusamus accusantium aliquam amet dolor, dolore doloremque enim fugit harum impedit mollitia natus nemo obcaecati perferendis, perspiciatis, quia quidem recusandae tempora voluptate?</p>
+    </div>
+
+    <h2>Bachground Attachment</h2>
+    <div id="bg-attachment">
+
+    </div>
+
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+
+    </div>
+
+    <h2>Background Position</h2>
+    <div id="bg-position">
+
+    </div>
+
+    <h2>Background Size</h2>
+    <div id="bg-size">
+
+    </div>
+
+    <h2>Gradient</h2>
+    <div id="gradient">
+
+    </div>
+
+</body>
+</html>

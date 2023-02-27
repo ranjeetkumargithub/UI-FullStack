@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Border</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin-bottom: 500px;
+        }
+        div{
+            background-color: lightgreen;
+            text-align: center;
+            padding: 20px;
+            font-size: 25px;
+            width: 800px;
+        }
+        #border-all{
+            border: 10px solid limegreen;
+        }
+        #border-single{
+            border-left: 10px solid limegreen;
+        }
+        #border-rounded{
+            border: 10px solid limegreen;
+            border-radius: 50px;
+        }
+        #border-rounded-two{
+            border: 10px solid limegreen;
+            border-radius: 60px 0 60px 0;
+        }
+        #circle{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: limegreen;
+        }
+        #border-circle{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            background-color: limegreen;
+            border: 25px solid greenyellow;
+        }
+        #border-frame{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-top: 25px solid greenyellow;
+            border-bottom: 25px solid greenyellow;
+            border-left: 25px solid darkslategray;
+            border-right: 25px solid darkslategray;
+        }
+        #border-ring{
+            width: 200px;
+            height: 200px;
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+            border-top: 25px solid greenyellow;
+            border-bottom: 25px solid greenyellow;
+            border-left: 80px solid darkslategray;
+            border-right: 80px solid darkslategray;
+            background: linear-gradient(45deg,darkslategray,yellow);
+        }
+        #youtube{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            border-top: 25px solid greenyellow;
+            border-bottom: 25px solid greenyellow;
+            border-left: 80px solid darkslategray;
+            border-right: 80px solid darkslategray;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Border All Sides</h2>
+    <div id="border-all">
+        <h2>Border All Sides</h2>
+    </div>
+
+    <h2>Border Single Sides</h2>
+    <div id="border-single">
+        <h2>Border Single Sides</h2>
+    </div>
+
+    <h2>Border Rounded All</h2>
+    <div id="border-rounded">
+        <h2>Border Rounded All</h2>
+    </div>
+
+    <h2>Border Rounded Two</h2>
+    <div id="border-rounded-two">
+        <h2>Border Rounded Two</h2>
+    </div>
+
+    <h2>Circle</h2>
+    <section id="circle">
+
+    </section>
+
+    <h2>Border Circle</h2>
+    <section id="border-circle">
+
+    </section>
+
+    <h2>Border Frame</h2>
+    <section id="border-frame">
+
+    </section>
+
+    <h2>Border Ring</h2>
+    <section id="border-ring">
+
+    </section>
+
+    <h2>Custom Border</h2>
+    <section id="youtube">
+        <iframe width="500" height="300" src="https://www.youtube-nocookie.com/embed/-ybtIniLPPM?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+</body>
+</html>

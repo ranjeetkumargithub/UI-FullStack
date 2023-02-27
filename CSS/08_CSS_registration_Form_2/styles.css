@@ -1,0 +1,45 @@
+.register-div{
+    font-family: Arial, sans-serif;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    width: 300px;
+    padding: 15px;
+    color: white;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+}
+.register-div h2{
+    font-size: 30px;
+    text-align: center;
+}
+.form-control{
+    font-size: 18px;
+    height: 35px;
+    width: 290px;
+    margin: 5px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: #ec86bf;
+    border-bottom: 3px solid #ec86bf;
+}
+.form-control:focus{
+    border-bottom: 3px solid #fbd1e8;
+}
+.form-control option{
+    color: #ec86bf;
+}
+::placeholder{
+    color: #ec86bf;
+}
+.register-btn{
+    margin: 10px 0;
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: white;
+    font-size: 18px;
+    padding: 12px 25px;
+    border: none;
+    outline: none;
+    width: 290px;
+    box-shadow: 0 5px 10px black;
+}

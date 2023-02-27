@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Mixed Selector</title>
+    <style>
+        ul{
+            background-color: lightgray;
+        }
+        ul li:nth-child(even){
+            background-color: orange;
+        }
+        ul li:nth-child(odd){
+            background-color: blueviolet;
+        }
+        ol{
+            background-color: lightgray;
+        }
+        ol li{
+            color: white;
+            font-family: "Comic Sans MS", sans-serif;
+            margin: 5px;
+        }
+        ol li:first-child{
+            background-color: orange;
+        }
+        ol li:last-child{
+            background-color: blueviolet;
+        }
+        ol li:nth-child(2){
+            background-color: orangered;
+        }
+        ol li:nth-child(3){
+            background-color: limegreen;
+        }
+
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>BootStrap</li>
+    </ul>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+    </ol>
+
+</body>
+</html>
