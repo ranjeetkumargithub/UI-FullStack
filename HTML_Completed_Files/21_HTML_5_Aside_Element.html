@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Aside Element</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .sidebar{
+            background: linear-gradient(45deg,blueviolet,deeppink);
+            float: left;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 5px 10px black;
+            height: 100vh;
+            padding: 10px;
+        }
+        .sidebar a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 14px 25px;
+        }
+        .sidebar a:hover{
+            background: linear-gradient(45deg,deeppink,coral);
+            border-radius: 50px;
+            box-shadow: 0 0 5px black;
+        }
+        .sidebar img{
+            width: 150px;
+            height: 150px;
+            border: 10px solid rosybrown;
+            border-radius: 50%;
+            box-shadow: 0 0 5px black;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+   <!-- aside tag -->
+    <aside class="sidebar">
+        <img src="img/User-Icon.jpg" alt="person">
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        <a href="">JavaScript</a>
+        <a href="">JQuery</a>
+        <a href="">Bootstrap</a>
+        <a href="">AJAX</a>
+        <a href="">Angular</a>
+    </aside>
+
+</body>
+</html>
